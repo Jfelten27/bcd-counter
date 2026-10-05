@@ -1,7 +1,7 @@
 # Circuit Project 1: Seven-Segment Display Two-Digit Decimal Counter
-- Katie Kilborn, Jose Felton, Wyatt Bowen
-
 - CSCE 211H: Digital Logic Design
+
+- Katie Kilborn, Jose Felton, Wyatt Bowen
 
 ## Seven-Segment Truth Table
 
@@ -11,10 +11,18 @@
 |    2    | 0 | 0 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 1 |  
 |    3    | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 0 | 1 |  
 |    4    | 0 | 1 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 1 |  
-|    5    | 0 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 
+|    5    | 0 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 1 | 1 |  
 |    6    | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 1 |
 |    7    | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 |  
 |    8    | 1 | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |  
 |    9    | 1 | 0 | 0 | 1 | 1 | 1 | 1 | 0 | 0 | 1 | 1 |  
 
 ## K-Maps
+
+### Segment a: a = A + C + BD + B'D'
+| CD \ AB | 00 | 01 | 11 | 10 |  
+|  :---:  |:---:|:---:|:---:|:---:|  
+|   00   |  1  |  0  |  x  |  1  |
+|   01   |  0  |  1  |  x  |  1  |  
+|   11   |  1  |  1  |  x  |  x  |
+|   10   |  1  |  1  |  x  |  x  |  
