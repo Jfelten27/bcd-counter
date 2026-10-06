@@ -3,7 +3,7 @@
 
 - Katie Kilborn, Jose Felton, Wyatt Bowen
 
-##Decimal Counter
+## Decimal Counter
 
 ### Seven-Segment Truth Table
 
